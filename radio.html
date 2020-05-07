@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          font-size: 17px;
+        }
+		body {
+			 background: linear-gradient(170deg, #FFFFFF, #CCCCCC);
+		}
+        
+        .nav{
+            border:1px solid #ccc;
+            border-width:1px 0;
+            list-style:none;
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
+        .nav li{
+            display:inline;
+        }
+        .nav a{
+            display:inline-block;
+            padding:14px 45px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        li a:hover, .dropdown:hover .dropbtn {
+          background-color: red;
+        }
+        
+        li.dropdown {
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: center;
+        }
+        
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+        .home {
+            height: 35%;
+            width: 35%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center; font-size:50px; padding: .6% 0% .6% 0%;">Emma Raskin Waddell</font></h1>
+    
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="saxophone.html">Saxophone</a></li>
+		<li><a href="composition.html">Composition</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Other Projects</a>
+            <div class="dropdown-content">
+		      <a href="waferhouse.html">The Wafer House</a>
+			  <a href="code.html">Code</a>
+              <a href="radio.html">Radio</a>
+            </div> 
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+	<p style="font-size:22px; padding: 4% 15% 2% 15%; text-indent: 5%">
+	Emma also hosts a weekly radio show called <b>"Imaginary Landscapes"</b> through her school radio station, WNYU 89.1. The show airs each Sunday from 12-2pm on <a href="https://wnyu.org/" style="color:#c41687">wnyu.org</a>.
+	</p>
+	
+	
+	<div style="padding: 0% 0% 0% 15%;"><img src="photos/wnyu.jpg" style="width: 20%; float: left;"></div>
+    <p style="font-size:21px; padding: 2% 15% 5% 35%; text-indent: 5%">
+	    Imaginary Landscapes focuses more on how pieces are composed than on the end product. Listen to hear experimentally composed music released in the past 10 years, with specific attention on female artists and artists of color. Types of composition styles include graphic scores, glitch composition, stochastic music, site specific composition, and less prevalent styles that are unique to only one composer. The title comes from John Cage's piece for multiple radios also entitled Imaginary Landscapes. So.. radio, and experimental composition. Haha. 
+      </p> 
+	    
+		<p style="font-size:22px; padding: 1% 15% 5% 15%;">
+		The most recent episode of the show can be found below. <br>
+		<audio autoplay="autoplay" controls="controls">  
+           <source src="https://wnyu-archives.s3.amazonaws.com/archives/6538d5e60c1ca6e9add7f21b58e7e6a6.mp3" />   
+        </audio>
+		 
+		<br>
+		The full archive of the show can be found by following <a href="https://wnyu.org/archives" style="color:#c41687">this link</a>, pressing "Filter", then "Program Filter", and inputting "Imaginary Landscapes".
+		
+		<br><br>
+		Emma is also the Technology Director of WNYU, and has worked on WNYU's website, live stream process, and helped set up the remote streaming system when the station went remote due to COVID-19 in 2020. She also is responsible for maintenance of station technology and the automatic archiver process.
+		</p>
+		
+        <br>
+    </p>
+
+</body>
+
+
+
+
+</html>
